@@ -3,7 +3,7 @@
 // ให้ต่อ backend ที่รันในเครื่อง ถ้าเปิดจากเว็บที่ deploy แล้วจึงใช้ URL บนเซิร์ฟเวอร์
 // แก้ค่าตรงนี้ได้ถ้าใช้พอร์ตอื่น
 const LOCAL_BACKEND = "http://127.0.0.1:8000";
-const REMOTE_BACKEND = "https://webwijai-ahp.onrender.com";
+const REMOTE_BACKEND = "https://project-p9ec.onrender.com";
 const _isLocal = ["localhost", "127.0.0.1", ""].includes(window.location.hostname);
 const BACKEND_URL = _isLocal ? LOCAL_BACKEND : REMOTE_BACKEND;
 
